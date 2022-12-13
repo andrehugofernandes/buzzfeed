@@ -25,6 +25,7 @@
   border-radius: 12px;
   background-color: #644ed2;
   font-family: 'Segoe UI', sans-serif;
+  font-size: 50px;
   width: 100%;
   height: 200px;
   margin-bottom: 20px;
@@ -46,10 +47,10 @@
   cursor: pointer;
   color: #fff;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 26px;
   padding: 16px 32px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #fff;
+  text-shadow: 0px 2px 0px 5px rgb(0, 0, 0);
   margin-bottom: 20px;
   margin-left: 4px;
   margin-right: 4px;
@@ -58,6 +59,7 @@
 .btn_option:hover{
   background-color: #5cbf2a;
   border: 2px solid rgba(255, 255, 255, 0.432);
+  color: #000000
 }.btn_option:active{
   position: relative;
   top: 1px;
@@ -74,5 +76,8 @@
   justify-content: center;
   align-items: center;
   font-family: 'Segoe UI', sans-serif;
-  
+    
+}
+.quizz_results > p {
+  font-size: 46px;
 }
